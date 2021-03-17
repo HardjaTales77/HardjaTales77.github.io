@@ -1,19 +1,48 @@
 <!DOCTYPE html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .center {
+            margin: auto;
+            width: 60%;
+            border: 5px double #FFFF00;
+            padding: 10px;
+            text-align: center;
+            background-color: azure;
+        }
+        del{
+            background-color: red;
+        }
+        in{
+            background-color: yellow;
+        }
+        .diff{
+            border: 5px dashed red;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body style="background-color:aquamarine;">
-    <div style="text-align: center;">
+    <div class="center">
         <h1>Ivan Hardja / 2017730002</h1>
         <img src="2017730002.jpg" height="500" width="400">
-        <h2>Profil Singkat</h2>
-            <p>Seorang mahasiswa yang sedang menjalani studi di Universitas Parahyangan, memperdalam ilmu teknik informatika. </p>
-        <h2>Biodata</h2> 
-            <p>Ivan lahir pada tanggal 30 Mei 1999 di Bandung</p>
-        <h2>Motto Hidup</h2>
+        <div class="diff">
+            <h2>Profil Singkat</h2>
+            <p>Seorang mahasiswa yang sedang menjalani studi di Universitas Parahyangan, memperdalam ilmu teknik informatika. Ivan memiliki minat dalam <strong>bidang penambangan data dan pengembangan perangkat lunak</strong>. Selain itu, </p>
+            <p>Di luar kampus, </p>
+        </div>
+        <br>
+        <div class="diff">
+            <h2>Biodata</h2> 
+            <p>Ivan lahir pada tanggal 30 Mei <del>1989</del> <in>1999</in> di Bandung</p>
+        </div>
+        <br>
+        <div class="diff">
+            <h2>Motto Hidup</h2>
             <p>If you know both yourself and your enemy, you can win a hundred battles without a single loss</p>
             <br>
             <p>- Sun Tzu</p>
+        </div>
     </div>
     
 </body>
